@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #424242;
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav .list-item {
+    float: left;
+    margin: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.nav .list-item a {
+    padding: 0 5px;
+    color: #f40;
+    font-weight: bold;
+    height: 30px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.nav .list-item a:hover {
+    background-color: #f40;
+    color: #fff;
+}
+
+p {
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid black;
+
+    /*单行打点 三件套*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /*多行只做截断*/
+    /*overflow: hidden;*/
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #424242;
+    width: 190px;
+    height: 0px;
+    padding-top: 90px;
+    overflow: hidden;
+    border: 1px solid black;
+    background-image:url(http://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+    background-size: 190px 90px;
+}
